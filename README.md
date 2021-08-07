@@ -46,7 +46,7 @@ docker container run -it --rm --volume $(pwd)/test/unit/coverage:/app/coverage u
 
 ### 4. Executando os testes end-to-end
 
-Executar um container digitando no Terminal o comando
+Executar um container docker digitando no Terminal o comando
 
 ```bash
 docker container run -it --rm --network minha-rede --volume $(pwd)/test/e2e/reports:/app/reports e2e-capybara
@@ -54,7 +54,7 @@ docker container run -it --rm --network minha-rede --volume $(pwd)/test/e2e/repo
 
 ### 5. Parando a aplicação web
 
-Parar o container digitando no Terminal o comando
+Parar o container docker digitando no Terminal o comando
 
 ```bash
 docker container rm -f aluno-online
