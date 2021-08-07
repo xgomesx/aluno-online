@@ -36,7 +36,7 @@ docker container run -d -p3000:3000 --name aluno-online --network minha-rede alu
 
 Abrir a url <http://localhost:3000/> no navegador. Autenticar com a matrícula `2020100` e senha `senha123`.
 
-### 2. Executando os testes unitários
+### 3. Executando os testes unitários
 
 Executar um container docker digitando no Terminal o comando
 
@@ -44,7 +44,7 @@ Executar um container docker digitando no Terminal o comando
 docker container run -it --rm --volume $(pwd)/test/unit/coverage:/app/coverage unit-jest
 ```
 
-### 3. Executando os testes end-to-end
+### 4. Executando os testes end-to-end
 
 Executar um container digitando no Terminal o comando
 
@@ -52,7 +52,7 @@ Executar um container digitando no Terminal o comando
 docker container run -it --rm --network minha-rede --volume $(pwd)/test/e2e/reports:/app/reports e2e-capybara
 ```
 
-### 4. Parando a aplicação web
+### 5. Parando a aplicação web
 
 Parar o container digitando no Terminal o comando
 
