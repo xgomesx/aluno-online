@@ -8,7 +8,7 @@ Requer a instalação do [Docker](https://www.docker.com/).
 
 ### 1. Criando as imagens
 
-Baixar o repositório [aluno-online](https://github.com/profjosereginaldo/aluno-online) na sua estação de trabalho.
+Baixar o repositório [aluno-online](https://github.com/eamaya/aluno-online) na sua estação de trabalho.
 
 Abrir a pasta `aluno-online` no VS Code. Abrir um novo Terminal (Ctrl+Shift+`) do VS Code.
 
