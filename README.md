@@ -4,7 +4,9 @@ Projeto criado para realização de atividades práticas.
 
 ## Instruções de Uso
 
-Requer a instalação do [Docker](https://www.docker.com/).
+O Prototipo de aluno-online pode rodar atraves do node: abrir a pasta aluno-online no VS code, entrar na pasta src (comando: cd src), instalar as dependencias (comando: npm install) e iniciar (comando: npm start). Abrir a url <http://localhost:3000/> no navegador. Autenticar com a matrícula `2023100` e senha `senha123`.
+
+Para os alunos que preferem usar o [Docker](https://www.docker.com/), segue o passos:
 
 ### 1. Criando as imagens
 
